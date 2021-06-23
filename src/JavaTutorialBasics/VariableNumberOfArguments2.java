@@ -1,4 +1,4 @@
-package JavaTutorialFiles;
+package JavaTutorialBasics;
 
 public class VariableNumberOfArguments2 {
     static int getSum(int num,int ...args){

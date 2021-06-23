@@ -1,4 +1,4 @@
-package JavaTutorialFiles;
+package JavaTutorialBasics;
 
 import java.util.Scanner;
 

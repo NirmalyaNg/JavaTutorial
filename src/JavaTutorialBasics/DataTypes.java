@@ -1,4 +1,4 @@
-package JavaTutorialFiles;
+package JavaTutorialBasics;
 
 public class DataTypes {
     public static void main(String[] args){
