@@ -45,4 +45,11 @@ Dynamic Binding :-
 3. Binding happens during runtime.
 4. Example :- Method Overriding.
 
+Static vs Dynamic Binding
+
+1. Static binding uses Type information for binding while Dynamic binding uses Objects to resolve Binding.
+2. Binding of all static,final and private methods is done at compile time.
+3. Overloaded methods are resolved during compile time using static binding while overridden methods
+   are resolved using dynamic binding during runtime.
+
  */
