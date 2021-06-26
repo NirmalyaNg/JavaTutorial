@@ -21,7 +21,7 @@ class Demo2 extends Demo1{
 
 
 
-public class StaticVsDynamicBinding {
+public class OOPS_10_StaticVsDynamicBinding {
     public static void main(String[] args) {
         Demo1 d1 = new Demo1();
         d1.greet();

@@ -28,7 +28,7 @@ class Derived1 extends Base1{
     }
 }
 
-public class SuperKeyword {
+public class OOPS_07_super_Keyword {
     public static void main(String[] args) {
         Derived1 d1 = new Derived1(10,20,30);
         d1.displayChild();

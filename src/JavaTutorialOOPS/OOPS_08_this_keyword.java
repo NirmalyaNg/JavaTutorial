@@ -18,7 +18,7 @@ class Utility{
 }
 
 
-public class thisKeyword {
+public class OOPS_08_this_keyword {
     public static void main(String[] args) {
         MyClass m = new MyClass(10,20);
         Utility.printObjDetails(m);

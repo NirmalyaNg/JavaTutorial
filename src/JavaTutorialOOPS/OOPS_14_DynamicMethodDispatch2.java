@@ -11,7 +11,7 @@ class Splendor extends Bike{
     }
 }
 
-public class DynamicMethodDispatch2 {
+public class OOPS_14_DynamicMethodDispatch2 {
     public static void main(String[] args) {
         Bike b = new Splendor(); // Upcasting
         // When reference variable of parent class refers to object of child class,it is

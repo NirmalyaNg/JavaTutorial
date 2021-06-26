@@ -21,7 +21,7 @@ class Circle extends Shape{
     }
 }
 
-public class DynamicBinding_MethodOverriding {
+public class OOPS_12_DynamicBinding_MethodOverriding {
     public static void main(String[] args) {
         Shape s1,s2,s3;
         s1 = new Square();

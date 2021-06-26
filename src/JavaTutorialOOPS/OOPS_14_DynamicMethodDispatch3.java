@@ -25,7 +25,7 @@ class ICICI extends Bank{
 
 
 
-public class DynamicMethodDispatch3 {
+public class OOPS_14_DynamicMethodDispatch3 {
     public static void main(String[] args) {
         Bank b1,b2,b3;  // Here b1 ,b2 and b3 are references of the Bank class
 

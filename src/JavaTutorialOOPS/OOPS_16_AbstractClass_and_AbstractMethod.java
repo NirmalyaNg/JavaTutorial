@@ -20,7 +20,7 @@ class SamsungSmartPhone extends PhoneModel{
     }
 }
 
-public class AbstractClass_and_AbstractMethod {
+public class OOPS_16_AbstractClass_and_AbstractMethod {
     public static void main(String[] args) {
         SamsungSmartPhone sm1 = new SamsungSmartPhone();
         sm1.switchOn();

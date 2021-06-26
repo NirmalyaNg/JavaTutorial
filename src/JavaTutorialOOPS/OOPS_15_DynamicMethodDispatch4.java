@@ -15,7 +15,7 @@ class HondaClass extends BikeClass{
 }
 
 
-public class DynamicMethodDispatch4 {
+public class OOPS_15_DynamicMethodDispatch4 {
     public static void main(String[] args) {
         BikeClass b1;
         b1 = new HondaClass();

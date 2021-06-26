@@ -21,7 +21,7 @@ class MyEmployee {
 }
 
 
-public class PrivateAccessModifier {
+public class OOPS_04_Private_Access_Modifier {
     public static void main(String[] args) {
         MyEmployee emp1 = new MyEmployee();
         MyEmployee emp2 = new MyEmployee();

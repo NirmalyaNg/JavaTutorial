@@ -19,7 +19,7 @@ class SmartPhone extends Phone{
     }
 }
 
-public class DynamicMethodDispatch {
+public class OOPS_13_DynamicMethodDispatch {
     public static void main(String[] args) {
         // Dynamic method dispatch
         // We will create an object of child class and store it in a reference of parent class

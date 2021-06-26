@@ -14,7 +14,7 @@ class Employee{
         System.out.println("Id of Employee : " + this.std_id);
     }
 }
-public class ClassObject {
+public class OOPS_01_ClassObject {
     public static void main(String [] args){
 
         // Create an object of the Employee class

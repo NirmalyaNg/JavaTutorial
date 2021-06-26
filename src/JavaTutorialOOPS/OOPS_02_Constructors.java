@@ -17,7 +17,7 @@ class Student{
     }
 }
 
-public class Constructors {
+public class OOPS_02_Constructors {
     public static void main(String[] args) {
         Student std1 = new Student("nirmalya",145);
         std1.display();

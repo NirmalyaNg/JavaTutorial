@@ -29,7 +29,7 @@ class Teacher{
 }
 
 
-public class ConstructorOverloading {
+public class OOPS_03_Constructor_Overloading {
     public static void main(String[] args) {
         Teacher t1 = new Teacher();
         t1.display();

@@ -12,7 +12,7 @@ class Dog extends Animal{
     }
 }
 
-public class MethodOverriding {
+public class OOPS_09_Method_Overriding {
     public static void main(String[] args) {
         Animal a = new Animal();
         Dog d = new Dog();

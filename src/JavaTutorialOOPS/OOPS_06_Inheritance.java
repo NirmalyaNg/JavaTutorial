@@ -25,7 +25,7 @@ class Derived extends Base{
 }
 
 
-public class Inheritance {
+public class OOPS_06_Inheritance {
     public static void main(String[] args) {
         Derived d = new Derived();
 
