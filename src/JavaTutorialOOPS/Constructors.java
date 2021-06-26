@@ -4,6 +4,8 @@ class Student{
     String name;
     int std_id;
 
+    // Constructor should not be made private otherwise we will not be able to instantiate the class.
+    // However private constructors are possible if we don't want the class to be instantiated.
     public Student(String name,int std_id){
         this.name = name;
         this.std_id = std_id;
