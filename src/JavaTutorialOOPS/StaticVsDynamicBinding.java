@@ -51,5 +51,4 @@ Static vs Dynamic Binding
 2. Binding of all static,final and private methods is done at compile time.
 3. Overloaded methods are resolved during compile time using static binding while overridden methods
    are resolved using dynamic binding during runtime.
-
  */
