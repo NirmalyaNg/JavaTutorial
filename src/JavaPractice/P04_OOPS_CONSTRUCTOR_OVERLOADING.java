@@ -1,5 +1,7 @@
 package JavaPractice;
 
+import java.util.Scanner;
+
 class Person{
     String name;
     int age;
@@ -13,33 +15,35 @@ class Person{
         this.name = name;
         this.age = 0;
     }
-    public Person(int age){
-        this.name = "Anonymous";
-        this.age = age;
-    }
     public Person(String name,int age){
         this.name = name;
         this.age = age;
     }
-
-    public void display(){
-        System.out.println("Name : " + this.name);
-        System.out.println("Age : " + this.age);
-    }
 }
-
 
 public class P04_OOPS_CONSTRUCTOR_OVERLOADING {
     public static void main(String[] args) {
-        Person p1 = new Person();
-        Person p2 = new Person(32);
-        Person p3 = new Person("Sampriti");
-        Person p4 = new Person("Nirmalya",22);
+        Scanner sc = new Scanner(System.in);
+        Person p;
 
-        p1.display();
-        p2.display();
-        p3.display();
-        p4.display();
+        System.out.println("Enter the way you want to create your profile :");
+        System.out.println("1.No name and no age");
+        System.out.println("2.Name but no age");
+        System.out.println("3.Name and age");
 
+        int choice = sc.nextInt();
+        if(choice == 1){
+            p = new Person();
+        }else if(choice == 2){
+            System.out.println("Enter your name:");
+            String name = sc.nextLine();
+            p = new Person(name);
+        }else if(choice == 3){
+            System.out.println("Enter your name:");
+            String name = sc.nextLine();
+            System.out.println("Enter your age:");
+            int age = sc.nextInt();
+            p = new Person(name,age);
+        }
     }
 }
